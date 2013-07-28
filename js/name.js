@@ -1,4 +1,6 @@
-function formatName(){
+function formartNames(){
+	'use strict';
+
 	var formattedName;
 	
 	var firstName = document.getElementById('firstName').value;
@@ -11,8 +13,8 @@ function formatName(){
 	return false;
 }
 
-funciton init(){
-
+function init(){
+	'use strict';
 	document.getElementById('theform').onsubmit = formartNames;
 }
 window.onload = init;
