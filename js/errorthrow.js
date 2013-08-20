@@ -7,7 +7,7 @@ try {
 			try {
 				ajax = new ActiveXObject('MSXML2.XMLHTTP');
 			} catch (ex) {
-				throw new Error('このブラウザではXMLHttpRequestがサポートされていません。');
+				throw new Error('XMLHttpRequest is not supported in this browser');
 		}
 	}
 }

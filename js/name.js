@@ -18,3 +18,8 @@ function init(){
 	document.getElementById('theform').onsubmit = formartNames;
 }
 window.onload = init;
+
+
+function(option){
+	throw new error("AAA option!)
+}
